@@ -7,7 +7,7 @@ application:
     reloadOnChange: false
     replicas: 2
     image: 
-      repository: AmitSela/numbers-api
+      repository: numbers-api
       tag: v16.0.0
       pullPolicy: IfNotPresent
     containerSecurityContext:
