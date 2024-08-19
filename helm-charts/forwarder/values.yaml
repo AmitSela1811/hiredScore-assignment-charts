@@ -1,5 +1,4 @@
 application:
-  namespaceOverride: "apps"
   applicationName: "microservices"
 
   deployment:
@@ -12,7 +11,7 @@ application:
       pullPolicy: IfNotPresent
     env:
       API_URL:
-        value: "http://numbers-api.apps.svc.cluster.local:8080"
+        value: "http://numbers-api.dev.svc.cluster.local:8080"
     containerSecurityContext:
       readOnlyRootFilesystem: true
       runAsNonRoot: false

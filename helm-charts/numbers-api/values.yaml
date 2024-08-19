@@ -1,5 +1,4 @@
 application:
-  namespaceOverride: "apps"
   applicationName: "numbers-api"
 
   deployment:
