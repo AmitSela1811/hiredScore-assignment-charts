@@ -7,7 +7,7 @@ application:
     replicas: 1
     image: 
       repository: 905418359591.dkr.ecr.us-east-1.amazonaws.com/forwarder
-      tag: 1.0.0
+      tag: v15.0.0
       pullPolicy: IfNotPresent
     env:
       API_URL:
