@@ -7,7 +7,7 @@ application:
     replicas: 2
     image: 
       repository: 905418359591.dkr.ecr.us-east-1.amazonaws.com/numbers-api
-      tag: v16.0.0
+      tag: v20.0.0
       pullPolicy: IfNotPresent
     containerSecurityContext:
       readOnlyRootFilesystem: true
