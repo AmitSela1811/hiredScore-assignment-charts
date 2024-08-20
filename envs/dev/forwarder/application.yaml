@@ -29,7 +29,7 @@ spec:
       - name: image.tag
         value: v15.0.0
     path: helm-charts/forwarder
-    repoURL: ssh://git@github.com/AmitSela1811/hiredScore-assignment.git
+    repoURL: ssh://git@github.com/AmitSela1811/hiredScore-assignment-charts.git
     targetRevision: main
   syncPolicy:
     automated:
