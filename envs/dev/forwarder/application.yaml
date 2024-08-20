@@ -27,7 +27,7 @@ spec:
       - name: readinessProbe.httpGet.path
         value: /healthz
       - name: image.tag
-        value: v15.0.0
+        value: v0.0.1
     path: helm-charts/forwarder
     repoURL: ssh://git@github.com/AmitSela1811/hiredScore-assignment-charts.git
     targetRevision: main
