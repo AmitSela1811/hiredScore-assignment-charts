@@ -49,7 +49,7 @@ application:
     servicePort: http
     pathType: ImplementationSpecific
     hosts:
-      - host: forwarder.local
+      - host: forwarder.public
         paths: 
         - path: /
 
