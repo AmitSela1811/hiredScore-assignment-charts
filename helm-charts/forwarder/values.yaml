@@ -1,5 +1,5 @@
 application:
-  applicationName: "microservices"
+  applicationName: "forwarder"
 
   deployment:
     enabled: true
@@ -49,6 +49,7 @@ application:
     servicePort: http
     pathType: ImplementationSpecific
     hosts:
-      - host: microservices.local
+      - host: forwarder.local
         paths: 
         - path: /
+
