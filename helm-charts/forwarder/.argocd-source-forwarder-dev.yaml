@@ -1,0 +1,20 @@
+helm:
+  parameters:
+  - name: image.repository
+    value: 905418359591.dkr.ecr.us-east-1.amazonaws.com/forwarder
+    forcestring: false
+  - name: service.port
+    value: "8080"
+    forcestring: false
+  - name: livenessProbe.httpGet.path
+    value: /healthz
+    forcestring: false
+  - name: readinessProbe.httpGet.path
+    value: /healthz
+    forcestring: false
+  - name: image.tag
+    value: v23.0.0
+    forcestring: true
+  - name: image.name
+    value: 905418359591.dkr.ecr.us-east-1.amazonaws.com/forwarder
+    forcestring: true
