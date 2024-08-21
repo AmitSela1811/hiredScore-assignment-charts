@@ -3,9 +3,8 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   annotations:
-    argocd-image-updater.argoproj.io/image-list: forwarder=905418359591.dkr.ecr.us-east-1.amazonaws.com/forwarder
-    argocd-image-updater.argoproj.io/forwarder.update-strategy: latest
-    argocd-image-updater.argoproj.io/forwarder.allow-tags: "*"
+    argocd-image-updater.argoproj.io/image-list: forwarder=905418359591.dkr.ecr.us-east-1.amazonaws.com/forwarder:~2
+    argocd-image-updater.argoproj.io/forwarder.update-strategy: semver
     argocd-image-updater.argoproj.io/write-back-method: git
   finalizers:
   - resources-finalizer.argocd.argoproj.io
