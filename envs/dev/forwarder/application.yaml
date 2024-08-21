@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   annotations:
-    argocd-image-updater.argoproj.io/image-list: numbers-api=905418359591.dkr.ecr.us-east-1.amazonaws.com/forwarder
+    argocd-image-updater.argoproj.io/image-list: forwarder=905418359591.dkr.ecr.us-east-1.amazonaws.com/forwarder
     argocd-image-updater.argoproj.io/write-back-method: git
   finalizers:
   - resources-finalizer.argocd.argoproj.io
