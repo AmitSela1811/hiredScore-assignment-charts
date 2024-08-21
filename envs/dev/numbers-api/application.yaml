@@ -4,7 +4,6 @@ kind: Application
 metadata:
   annotations:
     argocd-image-updater.argoproj.io/image-list: numbers-api=905418359591.dkr.ecr.us-east-1.amazonaws.com/numbers-api
-    argocd-image-updater.argoproj.io/numbers-api.update-strategy: semver
     argocd-image-updater.argoproj.io/write-back-method: git
   finalizers:
   - resources-finalizer.argocd.argoproj.io
